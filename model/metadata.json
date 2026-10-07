@@ -1,0 +1,52 @@
+{
+    "model_type": "HistGradientBoostingRegressor",
+    "dataset_name": "ProFuel Indian Food Catalog",
+    "num_food_items": 392,
+    "total_pairs_trained": 23520,
+    "train_samples": 18816,
+    "test_samples": 4704,
+    "feature_count": 30,
+    "numeric_features": [
+        "user_age",
+        "user_height",
+        "user_weight",
+        "user_bmi",
+        "target_calories",
+        "target_protein",
+        "target_carbs",
+        "target_fat",
+        "user_budget",
+        "food_calories",
+        "food_protein",
+        "food_carbs",
+        "food_fat",
+        "food_fiber",
+        "food_sugar",
+        "food_cost",
+        "calorie_ratio",
+        "protein_per_calorie",
+        "protein_per_rupee",
+        "calorie_density",
+        "budget_compatibility",
+        "goal_compatibility_score",
+        "macro_alignment_score"
+    ],
+    "categorical_features": [
+        "user_gender",
+        "user_goal",
+        "user_diet_preference",
+        "user_activity",
+        "meal_category",
+        "food_category",
+        "diet_type"
+    ],
+    "metrics": {
+        "train_mae": 0.3787,
+        "test_mae": 0.4391,
+        "train_rmse": 0.5581,
+        "test_rmse": 0.6728,
+        "train_r2": 0.9996,
+        "test_r2": 0.9994
+    },
+    "target_description": "Derived transparent food suitability index S \u2208 [0, 100] based on macro alignment, goal compatibility, protein efficiency, and budget tolerance."
+}
